@@ -1,0 +1,29 @@
+{
+  "name": "cep-to-spreadsheet",
+  "author": "Maycon Brito <mayconfsbrito@gmail.com>",
+  "version": "1.0",
+  "main": "app.js",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.0",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "cep-promise": "^3.0.8",
+    "crawler": "^1.2.1",
+    "csv-writer": "^1.6.0",
+    "csvjson": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "nodemailer": "^6.4.2"
+  }
+}
